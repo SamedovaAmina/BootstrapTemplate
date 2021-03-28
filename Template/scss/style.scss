@@ -1,20 +1,26 @@
 .post-title{
 
-    .heading{
-        color: rgba(0, 0, 255, 0.411);
-    }
     .pt-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
 
         .posts{
-
+            border: solid rgb(240, 239, 239) 2px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;          
             .heading{
-                color: rgba(0, 0, 255, 0.411);
+                color: rgba(4, 255, 4, 0.562);
+                text-transform: capitalize; 
             }
             .h5{
-                color: rgba(0, 255, 0, 0.349);
+                color: #00f;
+                text-transform: capitalize;
             }
             h2{
-
+                text-transform: capitalize;
             }
             p{
 
@@ -22,15 +28,30 @@
             footer{
 
                 a{
-
+                    text-transform: capitalize;
                 }
             }
             figure{
 
                 img{
-
+                    width: 300px;
                 }
             }
         }
+    }
+}
+.f-under{
+    background-color: #4A4E57;
+    color: $fontClr;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: $font1;
+    .und-inner{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
